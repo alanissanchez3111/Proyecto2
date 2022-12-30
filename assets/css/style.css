@@ -1,0 +1,57 @@
+@font-face{
+    font-family:letradafont;
+    src: url(Love.ttf);
+    
+}
+
+@font-face{
+    font-family:letradafont2;
+    src: url(Retro\ Gaming.ttf)
+}
+
+h1{
+    font-family:letradafont;
+    color:white;
+
+}    
+
+body{
+    background-image: url(fondo.gif);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+label{
+    color:white;
+    font-size: 20px;
+    font-family:letradafont2;
+    src: url(Retro\ Gaming.ttf)
+}
+
+button:hover{
+    background-color: rgb(71, 71, 170);
+    color: white;
+}
+
+button{
+    background-color: rgb(83, 190, 83);
+    color: black;
+    border-radius: 5px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+span{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
+
+
+
+
+
+
+
+
