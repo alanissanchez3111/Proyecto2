@@ -6,6 +6,7 @@ function encriptar(){
     if(passSistema==password){
         var encriptado = btoa(mensaje);
         document.getElementById("demo1").innerHTML = encriptado;    
+        document.getElementById("error").innerHTML = "";
     }else{
         document.getElementById("error").innerHTML = msgError;
     }
